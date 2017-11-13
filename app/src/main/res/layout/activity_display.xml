@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pidaus.layouttest.DisplayActivity">
+
+    <RelativeLayout
+        android:layout_width="387dp"
+        android:layout_height="512dp"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/Name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:text="Name"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Name2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:text="Your Star is:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/Star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="93dp"
+            android:text="Star"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonAlert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Star"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:onClick="open"
+            android:text="EXIT" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
